@@ -24,5 +24,7 @@ Decimal value: 5
 ```
 python test_bin2dec.py
 ```
-
-## enumerate, splitting code into functions,
+## What I learned:
+- `enumerate` gives me each character and its index, so I can work out its position from the right.
+- Splitting code into functions (`bin_to_dec` and `main`) keeps the conversion logic separate from input and output.
+- `assert` lets me test my function with known answers, like `101` giving 5, so I can catch bugs early.
